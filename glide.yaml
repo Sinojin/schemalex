@@ -1,4 +1,4 @@
-package: github.com/sinojin/schemalex
+package: github.com/Sinojin/schemalex
 import:
 - package: github.com/deckarep/golang-set
 - package: github.com/pkg/errors

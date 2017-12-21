@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/sinojin/schemalex/internal/errors"
+	"github.com/Sinojin/schemalex/internal/errors"
 )
 
 const eof = rune(0)

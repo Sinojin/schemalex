@@ -7,11 +7,11 @@ import (
 	"io"
 	"reflect"
 
+	"github.com/Sinojin/schemalex"
+	"github.com/Sinojin/schemalex/format"
+	"github.com/Sinojin/schemalex/internal/errors"
+	"github.com/Sinojin/schemalex/model"
 	"github.com/deckarep/golang-set"
-	"github.com/sinojin/schemalex"
-	"github.com/sinojin/schemalex/format"
-	"github.com/sinojin/schemalex/internal/errors"
-	"github.com/sinojin/schemalex/model"
 )
 
 // Option is a generic interface for objects that passes

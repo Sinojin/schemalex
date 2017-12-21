@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/sinojin/schemalex/internal/errors"
-	"github.com/sinojin/schemalex/model"
+	"github.com/Sinojin/schemalex/internal/errors"
+	"github.com/Sinojin/schemalex/model"
 )
 
 const (
