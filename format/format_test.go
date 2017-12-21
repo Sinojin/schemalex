@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/schemalex/schemalex/format"
-	"github.com/schemalex/schemalex/model"
+	"github.com/sinojin/schemalex/format"
+	"github.com/sinojin/schemalex/model"
 	"github.com/stretchr/testify/assert"
 )
 

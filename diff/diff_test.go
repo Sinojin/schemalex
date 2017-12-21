@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/schemalex/schemalex/diff"
+	"github.com/sinojin/schemalex/diff"
 	"github.com/stretchr/testify/assert"
 )
 

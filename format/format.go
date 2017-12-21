@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/schemalex/schemalex/internal/errors"
-	"github.com/schemalex/schemalex/internal/util"
-	"github.com/schemalex/schemalex/model"
+	"github.com/sinojin/schemalex/internal/errors"
+	"github.com/sinojin/schemalex/internal/util"
+	"github.com/sinojin/schemalex/model"
 )
 
 // SQL takes an arbitrary `model.*` object and formats it as SQL,
