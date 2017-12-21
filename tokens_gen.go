@@ -51,6 +51,7 @@ const (
 	BIT
 	BLOB
 	BTREE
+	BOOLEAN
 	CASCADE
 	CHAR
 	CHARACTER
@@ -82,6 +83,7 @@ const (
 	ENUM
 	EXISTS
 	FIRST
+	FALSE
 	FIXED
 	FLOAT
 	FOREIGN
@@ -137,6 +139,7 @@ const (
 	TINYBLOB
 	TINYINT
 	TINYTEXT
+	TRUE
 	UNION
 	UNIQUE
 	UNSIGNED
@@ -158,6 +161,7 @@ var keywordIdentMap = map[string]TokenType{
 	"BIT":                BIT,
 	"BLOB":               BLOB,
 	"BTREE":              BTREE,
+	"BOOLEAN":            BOOLEAN,
 	"CASCADE":            CASCADE,
 	"CHAR":               CHAR,
 	"CHARACTER":          CHARACTER,
@@ -188,6 +192,7 @@ var keywordIdentMap = map[string]TokenType{
 	"ENGINE":             ENGINE,
 	"ENUM":               ENUM,
 	"EXISTS":             EXISTS,
+	"FALSE":              FALSE,
 	"FIRST":              FIRST,
 	"FIXED":              FIXED,
 	"FLOAT":              FLOAT,
@@ -244,6 +249,7 @@ var keywordIdentMap = map[string]TokenType{
 	"TINYBLOB":           TINYBLOB,
 	"TINYINT":            TINYINT,
 	"TINYTEXT":           TINYTEXT,
+	"TRUE":               TRUE,
 	"UNION":              UNION,
 	"UNIQUE":             UNIQUE,
 	"UNSIGNED":           UNSIGNED,
@@ -316,6 +322,8 @@ func (t TokenType) String() string {
 		return "BLOB"
 	case BTREE:
 		return "BTREE"
+	case BOOLEAN:
+		return "BOOLEAN"
 	case CASCADE:
 		return "CASCADE"
 	case CHAR:
@@ -376,6 +384,8 @@ func (t TokenType) String() string {
 		return "ENUM"
 	case EXISTS:
 		return "EXISTS"
+	case FALSE:
+		return "FALSE"
 	case FIRST:
 		return "FIRST"
 	case FIXED:
@@ -470,6 +480,8 @@ func (t TokenType) String() string {
 		return "STATS_SAMPLE_PAGES"
 	case STORAGE:
 		return "STORAGE"
+	case TRUE:
+		return "TRUE"
 	case TABLE:
 		return "TABLE"
 	case TABLESPACE:
